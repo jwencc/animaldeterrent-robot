@@ -120,7 +120,7 @@ robot_position = start_pos
 current_direction = directions[0]  # Start moving to the right
 
 # Load the grass image for the background
-grass_image = Image.open("C:/Users/user/OneDrive/Desktop/UMPSA/SEM 5/CAPSTONE/grass.jpg")  # Replace with your grass image path
+grass_image = Image.open("grass.jpg")  # Replace with your grass image path
 
 # Convert it to a NumPy array
 grass_image = np.array(grass_image)
